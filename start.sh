@@ -3,4 +3,4 @@
 ./listmonk --install --idempotent --yes --config ""
 
 # 2. Inicia o servidor web do Listmonk na porta 9000
-./listmonk
+./listmonk --config ""
