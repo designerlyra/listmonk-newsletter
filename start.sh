@@ -1,13 +1,4 @@
 #!/bin/sh
-
-echo "=== DIAGNOSTICO DE CREDENCIAIS ==="
-echo "Host: $LISTMONK_db__host"
-echo "Porta: $LISTMONK_db__port"
-echo "Usuario: $LISTMONK_db__user"
-echo "Banco: $LISTMONK_db__database"
-echo "Tamanho da Senha Recebida: ${#LISTMONK_db__password} caracteres"
-echo "=================================="
-
 cat <<EOF > config.toml
 [app]
 address = "0.0.0.0:9000"
